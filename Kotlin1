@@ -1,0 +1,37 @@
+//     1. Given the side of the square a. Find its perimeter P = 4 · a.
+fun printPerimeterSquare(a: Int):Int{
+    return 4*a
+}
+//     2. Given the side of the square a. Find its area S = a2.
+fun printSquare(a: Int):Int{
+    return a*2
+}
+//      Given the sides of the rectangle a and b. Find its area S = a b andperimeter P = 2 (a + b).
+fun printPerimeterRectangle(a: Int,b: Int):Int{
+    return 2*(a+b)
+}
+fun printSquareRectangle(a: Int,b: Int):Int{
+    return a*b
+}
+//      Given the diameter of the circle d. Find its length L = π · d. Asuse π values3.14.
+
+fun main(){
+//      5. Given the length of the edge of the cube a. Find the volume of a cube V = a3 and its areasurface S = 6 a2.
+//      6. Given the lengths of the edges a, b, c of a rectangular parallelepiped. Findits volume V = a b c and surface area S = 2 (a b + b c + a c).
+// 7. Find the length of a circle L and the area ofa circle S of a given radius R:L = 2 π R, S = π R2. Use 3.14 for π
+    //8. Given two numbers a and b. Find their arithmetic mean: (a + b) / 2.
+    //9. Given two non-negative numbers a and b. Find their geometric mean√ a · b.
+    //10. Two nonzero numbers are given. Find the sum, difference, product andthe quotient of their squares.
+   	println("Enter integer value a:")
+    var string1 = readLine()!!
+    var integerA: Int = string1.toInt()
+    println("Enter integer value b:")
+    var string2 = readLine()!!
+    var integerB : Int = string2.toInt()
+	println("Your values: a="+$integerA +" "+"and b="+" "+$integerB)
+    println("Perimeter (P)"+" "+printPerimeterSquare($integerA))
+    println("Square (S)="+" "+printSquare($integerA))
+    println("Perimeter of Rectangle and Square:"+"P="+" "+ printPerimeterRectangle($integerA,$inetegerB)+" S="+" "+printSquareRectangle($integerA,$integerB) )
+
+ 
+}
