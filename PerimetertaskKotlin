@@ -1,0 +1,8 @@
+fun printPerimeter(a: Int):Int{
+    return 4*a;
+}
+fun main(){
+//     1. Given the side of the square a. Find its perimeter P = 4 · a.
+    println("Perimeter"+" "+printPerimeter(2))
+ 
+}
